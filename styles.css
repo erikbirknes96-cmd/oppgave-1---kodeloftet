@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background: linear-gradient(135deg, rgb(200, 0, 0) 0%, rgb(255, 255, 255)66%);
+
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: red;
+  border: 7px solid white;
+  border-radius: 0 0 3rem 0;
+  font-weight: bolder;
+  padding: 1rem;
+  height: 6rem;
+  width: 10rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 8rem;
+  height: 4rem;
+  border: 3px solid gray;
+  border-radius: 2rem 1rem 3rem 2rem;
+  background-color: lightgray;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: .2s;
+}
+
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid black;
+  margin-block: 10rem;
+}
+
+.icon {
+  width: 2rem;
+}
+.img1 {
+  width: 20rem;
+  }
+
+.nav-button:hover {
+  opacity: .8;
+}
+
+.nav-button:active {
+  opacity: .5;
+}
